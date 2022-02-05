@@ -1,0 +1,15 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    show_sql : true
+
+naver:
+  search:
+    url:
+      local: https://openapi.naver.com/v1/search/local.json
+      image: https://openapi.naver.com/v1/search/image
+  client:
+    id: b6AO61Hohz7ly9sRx5Nw
+    secret : T7yqCUw6hv
